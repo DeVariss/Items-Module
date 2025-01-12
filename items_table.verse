@@ -1,7 +1,7 @@
-items_table := module:
+item_tables := module:
     using { core.items.item_ids }
 
-    SeasonsItemsTable<public>: [][][]int = array:
+    ItemTables<public>: [][][]int = array:
         # Chapter 1, Season 0
         array:
             array:
